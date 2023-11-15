@@ -7,7 +7,6 @@
 
 ;; DECOMP BEGINS
 
-
 (define-extern *allow-flutflut-anywhere* symbol)
 
 (if (not (nmember "flutp" *kernel-packages*))
@@ -172,7 +171,6 @@
     (if (not *allow-flutflut-anywhere*)
       (blocking-plane-spawn (the-as curve-control (-> self path-target)))
       )
-    (none)
     )
   :exit (-> (method-of-type flutflut wait-for-start) exit)
   :code (behavior ()
@@ -290,7 +288,6 @@
     (if (not *allow-flutflut-anywhere*)
       (blocking-plane-spawn (the-as curve-control (-> self path-flut)))
       )
-    (none)
     )
   :code (behavior ()
     (ja-channel-set! 0)

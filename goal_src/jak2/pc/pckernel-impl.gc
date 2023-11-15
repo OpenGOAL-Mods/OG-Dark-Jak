@@ -68,6 +68,7 @@
   (catalan 16)
   (icelandic 17)
   (russian 18)
+  (polish 19)
 
   (custom 999) ;; temp
   )
@@ -78,6 +79,7 @@
    (cheats            pc-cheats)
    (cheats-revealed   pc-cheats)
    (cheats-purchased  pc-cheats)
+   (cheats-backup     pc-cheats) ;; backup for 'cheats', persisted to disk to be restored when disabling speedrunner mode
    ;; music
    (music-unlocked  bit-array)
    (flava-unlocked  symbol 6)
@@ -140,7 +142,7 @@
   (true! (-> obj fast-elevator?))
   (false! (-> obj fast-progress?))
   (true! (-> obj smooth-minimap?))
-  (true! (-> obj hires-clouds?))
+  (false! (-> obj hires-clouds?))
   0)
 
 (defmethod reset-extra ((obj pc-settings-jak2) (call-handlers symbol))
