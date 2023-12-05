@@ -1087,6 +1087,9 @@
     (update-rates! (-> *display* entity-clock) 1.0)
     (update-rates! (-> *display* bg-clock) 1.0)
     (update-rates! (-> *display* target-clock) 1.0)
+    (if (not (logtest? (game-feature darkjak-invinc) (-> self game features)))
+      (logclear! (-> self state-flags) (state-flags sf4)) ;; take away invuln
+      )
     ;; (if (not (and (-> self next-state) (= (-> self next-state name) 'target-darkjak-get-off)))
     ;;     ((-> target-darkjak-get-off exit))
     ;;     )
@@ -1416,6 +1419,9 @@
       )
     (logior! (-> self control status) (collide-status on-surface on-ground touch-surface))
     (send-event (handle->process (-> self notify)) 'notify 'attack 16)
+    (if (not (logtest? (game-feature darkjak-invinc) (-> self game features)))
+      (logclear! (-> self state-flags) (state-flags sf4)) ;; take away invuln
+      )
     (go target-stance)
     ;; (go target-darkjak-get-off)
     )
@@ -1864,6 +1870,9 @@
       )
     (set-time! (-> self gun surpress-time))
     (send-event (handle->process (-> self notify)) 'notify 'attack 17)
+    (if (not (logtest? (game-feature darkjak-invinc) (-> self game features)))
+      (logclear! (-> self state-flags) (state-flags sf4)) ;; take away invuln
+      )
     (go target-stance)
     ;; (go target-darkjak-get-off)
     )
