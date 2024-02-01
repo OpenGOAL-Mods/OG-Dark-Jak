@@ -464,6 +464,8 @@
   "elec-gate.o"
   "cty-guard-turret-button.o"
   "entity-debug.o" ;; added
+  "oracle-texture.o"
+  "darkjak-highres-ag.go"
   "mod-settings.o" ;; added
   "mod-common-functions.o" ;; added
   "mod-custom-code.o" ;; added

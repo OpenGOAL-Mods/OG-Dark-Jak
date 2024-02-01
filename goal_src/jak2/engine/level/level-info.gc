@@ -61,7 +61,7 @@
                         :borrow-level (new 'static 'array symbol 2 #f #f)
                         :borrow-display? (new 'static 'array symbol 2 #f #f)
                         :texture-anim-tfrag #f
-                        :texture-anim-pris #f
+                        :texture-anim-pris '*darkjak-hires-texture-anim-array*
                         :texture-anim-shrub #f
                         :texture-anim-alpha #f
                         :texture-anim-water #f
@@ -117,7 +117,7 @@
                 :borrow-level (new 'static 'array symbol 2 #f #f)
                 :borrow-display? (new 'static 'array symbol 2 #f #f)
                 :texture-anim-tfrag #f
-                :texture-anim-pris #f
+                :texture-anim-pris '*darkjak-hires-texture-anim-array*
                 :texture-anim-shrub #f
                 :texture-anim-alpha #f
                 :texture-anim-water #f
@@ -291,7 +291,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -441,7 +441,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -664,7 +664,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -912,7 +912,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -966,7 +966,7 @@
                 :borrow-display? (new 'static 'array symbol 2 #f #f)
                 :base-task-mask (task-mask task0)
                 :texture-anim-tfrag #f
-                :texture-anim-pris #f
+                :texture-anim-pris '*darkjak-hires-texture-anim-array*
                 :texture-anim-shrub #f
                 :texture-anim-alpha #f
                 :texture-anim-water #f
@@ -1020,7 +1020,7 @@
                  :borrow-display? (new 'static 'array symbol 2 #f #f)
                  :base-task-mask (task-mask task0)
                  :texture-anim-tfrag #f
-                 :texture-anim-pris #f
+                 :texture-anim-pris '*darkjak-hires-texture-anim-array*
                  :texture-anim-shrub #f
                  :texture-anim-alpha #f
                  :texture-anim-water #f
@@ -1074,7 +1074,7 @@
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :base-task-mask (task-mask task0 primary0)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -1178,7 +1178,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -1232,7 +1232,7 @@
                  :borrow-display? (new 'static 'array symbol 2 #f #f)
                  :base-task-mask (task-mask task0)
                  :texture-anim-tfrag #f
-                 :texture-anim-pris #f
+                 :texture-anim-pris '*darkjak-hires-texture-anim-array*
                  :texture-anim-shrub #f
                  :texture-anim-alpha #f
                  :texture-anim-water #f
@@ -1396,7 +1396,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -1450,7 +1450,7 @@
                   :borrow-display? (new 'static 'array symbol 2 #f #f)
                   :base-task-mask (task-mask task0)
                   :texture-anim-tfrag #f
-                  :texture-anim-pris #f
+                  :texture-anim-pris '*darkjak-hires-texture-anim-array*
                   :texture-anim-shrub #f
                   :texture-anim-alpha #f
                   :texture-anim-water #f
@@ -1656,7 +1656,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -1758,7 +1758,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -1836,7 +1836,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -1913,7 +1913,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -2043,7 +2043,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -2096,7 +2096,7 @@
                   :borrow-level (new 'static 'array symbol 2 #f #f)
                   :borrow-display? (new 'static 'array symbol 2 #f #f)
                   :texture-anim-tfrag #f
-                  :texture-anim-pris #f
+                  :texture-anim-pris '*darkjak-hires-texture-anim-array*
                   :texture-anim-shrub #f
                   :texture-anim-alpha #f
                   :texture-anim-water #f
@@ -2197,7 +2197,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -2277,7 +2277,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -2428,7 +2428,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -2532,7 +2532,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -2612,7 +2612,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -2666,7 +2666,7 @@
                   :borrow-display? (new 'static 'array symbol 2 #f #f)
                   :base-task-mask (task-mask task0)
                   :texture-anim-tfrag #f
-                  :texture-anim-pris #f
+                  :texture-anim-pris '*darkjak-hires-texture-anim-array*
                   :texture-anim-shrub #f
                   :texture-anim-alpha #f
                   :texture-anim-water #f
@@ -2794,7 +2794,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -2849,7 +2849,7 @@
                  :borrow-display? (new 'static 'array symbol 2 #f #f)
                  :base-task-mask (task-mask task0)
                  :texture-anim-tfrag #f
-                 :texture-anim-pris #f
+                 :texture-anim-pris '*darkjak-hires-texture-anim-array*
                  :texture-anim-shrub #f
                  :texture-anim-alpha #f
                  :texture-anim-water #f
@@ -2954,7 +2954,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -3009,7 +3009,7 @@
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :base-task-mask (task-mask task0)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -3064,7 +3064,7 @@
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :base-task-mask (task-mask task0)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -3119,7 +3119,7 @@
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :base-task-mask (task-mask task0)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -3222,7 +3222,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -3375,7 +3375,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -3483,7 +3483,7 @@
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :base-task-mask (task-mask task0)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -3585,7 +3585,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -3688,7 +3688,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -3766,7 +3766,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -3845,7 +3845,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -4027,7 +4027,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -4154,7 +4154,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -4208,7 +4208,7 @@
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :base-task-mask (task-mask task0)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -4360,7 +4360,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -4542,7 +4542,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -4597,7 +4597,7 @@
                   :borrow-display? (new 'static 'array symbol 2 #f #f)
                   :base-task-mask (task-mask task0)
                   :texture-anim-tfrag #f
-                  :texture-anim-pris #f
+                  :texture-anim-pris '*darkjak-hires-texture-anim-array*
                   :texture-anim-shrub #f
                   :texture-anim-alpha #f
                   :texture-anim-water #f
@@ -4870,7 +4870,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0 primary0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -4924,7 +4924,7 @@
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :base-task-mask (task-mask task0)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -5225,7 +5225,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task3)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water '*waterfall-texture-anim-array*
@@ -5281,7 +5281,7 @@
                  :borrow-display? (new 'static 'array symbol 2 #f #f)
                  :base-task-mask (task-mask task3)
                  :texture-anim-tfrag #f
-                 :texture-anim-pris #f
+                 :texture-anim-pris '*darkjak-hires-texture-anim-array*
                  :texture-anim-shrub #f
                  :texture-anim-alpha #f
                  :texture-anim-water #f
@@ -5385,7 +5385,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha '*waterfall-b-texture-anim-array*
     :texture-anim-water #f
@@ -5441,7 +5441,7 @@
                   :borrow-display? (new 'static 'array symbol 2 #f #f)
                   :base-task-mask (task-mask task0)
                   :texture-anim-tfrag #f
-                  :texture-anim-pris #f
+                  :texture-anim-pris '*darkjak-hires-texture-anim-array*
                   :texture-anim-shrub #f
                   :texture-anim-alpha '*waterfall-texture-anim-array*
                   :texture-anim-water #f
@@ -5545,7 +5545,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha '*waterfall-b-texture-anim-array*
     :texture-anim-water #f
@@ -5602,7 +5602,7 @@
                   :borrow-level (new 'static 'array symbol 2 #f #f)
                   :borrow-display? (new 'static 'array symbol 2 #f #f)
                   :texture-anim-tfrag #f
-                  :texture-anim-pris #f
+                  :texture-anim-pris '*darkjak-hires-texture-anim-array*
                   :texture-anim-shrub #f
                   :texture-anim-alpha #f
                   :texture-anim-water '*security-texture-anim-array*
@@ -5658,7 +5658,7 @@
                  :borrow-level (new 'static 'array symbol 2 #f #f)
                  :borrow-display? (new 'static 'array symbol 2 #f #f)
                  :texture-anim-tfrag #f
-                 :texture-anim-pris #f
+                 :texture-anim-pris '*darkjak-hires-texture-anim-array*
                  :texture-anim-shrub #f
                  :texture-anim-alpha #f
                  :texture-anim-water #f
@@ -5714,7 +5714,7 @@
                  :borrow-level (new 'static 'array symbol 2 #f #f)
                  :borrow-display? (new 'static 'array symbol 2 #f #f)
                  :texture-anim-tfrag #f
-                 :texture-anim-pris #f
+                 :texture-anim-pris '*darkjak-hires-texture-anim-array*
                  :texture-anim-shrub #f
                  :texture-anim-alpha #f
                  :texture-anim-water #f
@@ -5770,7 +5770,7 @@
                  :borrow-level (new 'static 'array symbol 2 #f #f)
                  :borrow-display? (new 'static 'array symbol 2 #f #f)
                  :texture-anim-tfrag #f
-                 :texture-anim-pris #f
+                 :texture-anim-pris '*darkjak-hires-texture-anim-array*
                  :texture-anim-shrub #f
                  :texture-anim-alpha #f
                  :texture-anim-water #f
@@ -5825,7 +5825,7 @@
                   :borrow-level (new 'static 'array symbol 2 #f #f)
                   :borrow-display? (new 'static 'array symbol 2 #f #f)
                   :texture-anim-tfrag #f
-                  :texture-anim-pris #f
+                  :texture-anim-pris '*darkjak-hires-texture-anim-array*
                   :texture-anim-shrub #f
                   :texture-anim-alpha #f
                   :texture-anim-water #f
@@ -5880,7 +5880,7 @@
                   :borrow-level (new 'static 'array symbol 2 #f #f)
                   :borrow-display? (new 'static 'array symbol 2 #f #f)
                   :texture-anim-tfrag #f
-                  :texture-anim-pris #f
+                  :texture-anim-pris '*darkjak-hires-texture-anim-array*
                   :texture-anim-shrub #f
                   :texture-anim-alpha #f
                   :texture-anim-water #f
@@ -6009,7 +6009,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -6138,7 +6138,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -6267,7 +6267,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -6563,7 +6563,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -6714,7 +6714,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -6866,7 +6866,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -7329,7 +7329,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -7384,7 +7384,7 @@
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :base-task-mask (task-mask task0)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -7537,7 +7537,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -7643,7 +7643,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -7818,7 +7818,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -7923,7 +7923,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub '*kor-transform-texture-anim-array*
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -8002,7 +8002,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -8128,7 +8128,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -8234,7 +8234,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -8388,7 +8388,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -8541,7 +8541,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -8718,7 +8718,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -8894,7 +8894,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha '*stadiumb-energy-wall-anim-array*
     :texture-anim-water #f
@@ -9094,7 +9094,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -9270,7 +9270,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -9395,7 +9395,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -9522,7 +9522,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -9576,7 +9576,7 @@
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :base-task-mask (task-mask task0)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -9631,7 +9631,7 @@
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :base-task-mask (task-mask task0)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -9687,7 +9687,7 @@
                  :borrow-display? (new 'static 'array symbol 2 #f #f)
                  :base-task-mask (task-mask task0)
                  :texture-anim-tfrag #f
-                 :texture-anim-pris #f
+                 :texture-anim-pris '*darkjak-hires-texture-anim-array*
                  :texture-anim-shrub #f
                  :texture-anim-alpha #f
                  :texture-anim-water #f
@@ -9743,7 +9743,7 @@
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :base-task-mask (task-mask task0)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -9799,7 +9799,7 @@
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :base-task-mask (task-mask task0)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -9855,7 +9855,7 @@
                   :borrow-display? (new 'static 'array symbol 2 #f #f)
                   :base-task-mask (task-mask task0)
                   :texture-anim-tfrag #f
-                  :texture-anim-pris #f
+                  :texture-anim-pris '*darkjak-hires-texture-anim-array*
                   :texture-anim-shrub #f
                   :texture-anim-alpha #f
                   :texture-anim-water #f
@@ -9911,7 +9911,7 @@
                   :borrow-display? (new 'static 'array symbol 2 #f #f)
                   :base-task-mask (task-mask task0)
                   :texture-anim-tfrag #f
-                  :texture-anim-pris #f
+                  :texture-anim-pris '*darkjak-hires-texture-anim-array*
                   :texture-anim-shrub #f
                   :texture-anim-alpha #f
                   :texture-anim-water #f
@@ -9967,7 +9967,7 @@
                   :borrow-display? (new 'static 'array symbol 2 #f #f)
                   :base-task-mask (task-mask task0)
                   :texture-anim-tfrag #f
-                  :texture-anim-pris #f
+                  :texture-anim-pris '*darkjak-hires-texture-anim-array*
                   :texture-anim-shrub #f
                   :texture-anim-alpha #f
                   :texture-anim-water #f
@@ -10023,7 +10023,7 @@
                   :borrow-display? (new 'static 'array symbol 2 #f #f)
                   :base-task-mask (task-mask task0)
                   :texture-anim-tfrag #f
-                  :texture-anim-pris #f
+                  :texture-anim-pris '*darkjak-hires-texture-anim-array*
                   :texture-anim-shrub #f
                   :texture-anim-alpha #f
                   :texture-anim-water #f
@@ -10079,7 +10079,7 @@
                   :borrow-display? (new 'static 'array symbol 2 #f #f)
                   :base-task-mask (task-mask task0)
                   :texture-anim-tfrag #f
-                  :texture-anim-pris #f
+                  :texture-anim-pris '*darkjak-hires-texture-anim-array*
                   :texture-anim-shrub #f
                   :texture-anim-alpha #f
                   :texture-anim-water #f
@@ -10135,7 +10135,7 @@
                   :borrow-display? (new 'static 'array symbol 2 #f #f)
                   :base-task-mask (task-mask task0)
                   :texture-anim-tfrag #f
-                  :texture-anim-pris #f
+                  :texture-anim-pris '*darkjak-hires-texture-anim-array*
                   :texture-anim-shrub #f
                   :texture-anim-alpha #f
                   :texture-anim-water #f
@@ -10190,7 +10190,7 @@
                    :borrow-level (new 'static 'array symbol 2 #f #f)
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -10245,7 +10245,7 @@
                    :borrow-level (new 'static 'array symbol 2 #f #f)
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -10300,7 +10300,7 @@
                    :borrow-level (new 'static 'array symbol 2 #f #f)
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -10355,7 +10355,7 @@
                    :borrow-level (new 'static 'array symbol 2 #f #f)
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -10410,7 +10410,7 @@
                   :borrow-level (new 'static 'array symbol 2 #f #f)
                   :borrow-display? (new 'static 'array symbol 2 #f #f)
                   :texture-anim-tfrag #f
-                  :texture-anim-pris #f
+                  :texture-anim-pris '*darkjak-hires-texture-anim-array*
                   :texture-anim-shrub #f
                   :texture-anim-alpha #f
                   :texture-anim-water #f
@@ -10490,7 +10490,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -10545,7 +10545,7 @@
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :base-task-mask (task-mask task0)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -10601,7 +10601,7 @@
                   :borrow-display? (new 'static 'array symbol 2 #f #f)
                   :base-task-mask (task-mask task0)
                   :texture-anim-tfrag #f
-                  :texture-anim-pris #f
+                  :texture-anim-pris '*darkjak-hires-texture-anim-array*
                   :texture-anim-shrub #f
                   :texture-anim-alpha #f
                   :texture-anim-water #f
@@ -10679,7 +10679,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -10860,7 +10860,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -10913,7 +10913,7 @@
                    :borrow-level (new 'static 'array symbol 2 #f #f)
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -10968,7 +10968,7 @@
                    :borrow-level (new 'static 'array symbol 2 #f #f)
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -11023,7 +11023,7 @@
                    :borrow-level (new 'static 'array symbol 2 #f #f)
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -11078,7 +11078,7 @@
                    :borrow-level (new 'static 'array symbol 2 #f #f)
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -11132,7 +11132,7 @@
                   :borrow-level (new 'static 'array symbol 2 #f #f)
                   :borrow-display? (new 'static 'array symbol 2 #f #f)
                   :texture-anim-tfrag #f
-                  :texture-anim-pris #f
+                  :texture-anim-pris '*darkjak-hires-texture-anim-array*
                   :texture-anim-shrub #f
                   :texture-anim-alpha #f
                   :texture-anim-water #f
@@ -11187,7 +11187,7 @@
                    :borrow-level (new 'static 'array symbol 2 #f #f)
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -11242,7 +11242,7 @@
                    :borrow-level (new 'static 'array symbol 2 #f #f)
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -11297,7 +11297,7 @@
                    :borrow-level (new 'static 'array symbol 2 #f #f)
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -11352,7 +11352,7 @@
                 :borrow-level (new 'static 'array symbol 2 #f #f)
                 :borrow-display? (new 'static 'array symbol 2 #f #f)
                 :texture-anim-tfrag #f
-                :texture-anim-pris #f
+                :texture-anim-pris '*darkjak-hires-texture-anim-array*
                 :texture-anim-shrub #f
                 :texture-anim-alpha #f
                 :texture-anim-water #f
@@ -11407,7 +11407,7 @@
                    :borrow-level (new 'static 'array symbol 2 #f #f)
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -11462,7 +11462,7 @@
                    :borrow-level (new 'static 'array symbol 2 #f #f)
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -11517,7 +11517,7 @@
                    :borrow-level (new 'static 'array symbol 2 #f #f)
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -11572,7 +11572,7 @@
                  :borrow-level (new 'static 'array symbol 2 #f #f)
                  :borrow-display? (new 'static 'array symbol 2 #f #f)
                  :texture-anim-tfrag #f
-                 :texture-anim-pris #f
+                 :texture-anim-pris '*darkjak-hires-texture-anim-array*
                  :texture-anim-shrub #f
                  :texture-anim-alpha #f
                  :texture-anim-water #f
@@ -11627,7 +11627,7 @@
                    :borrow-level (new 'static 'array symbol 2 #f #f)
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -11682,7 +11682,7 @@
                    :borrow-level (new 'static 'array symbol 2 #f #f)
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -11737,7 +11737,7 @@
                    :borrow-level (new 'static 'array symbol 2 #f #f)
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -11792,7 +11792,7 @@
                  :borrow-level (new 'static 'array symbol 2 #f #f)
                  :borrow-display? (new 'static 'array symbol 2 #f #f)
                  :texture-anim-tfrag #f
-                 :texture-anim-pris #f
+                 :texture-anim-pris '*darkjak-hires-texture-anim-array*
                  :texture-anim-shrub #f
                  :texture-anim-alpha #f
                  :texture-anim-water #f
@@ -11847,7 +11847,7 @@
                    :borrow-level (new 'static 'array symbol 2 #f #f)
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -12047,7 +12047,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -12101,7 +12101,7 @@
                 :borrow-level (new 'static 'array symbol 2 #f #f)
                 :borrow-display? (new 'static 'array symbol 2 #f #f)
                 :texture-anim-tfrag #f
-                :texture-anim-pris #f
+                :texture-anim-pris '*darkjak-hires-texture-anim-array*
                 :texture-anim-shrub #f
                 :texture-anim-alpha #f
                 :texture-anim-water #f
@@ -12156,7 +12156,7 @@
                   :borrow-level (new 'static 'array symbol 2 #f #f)
                   :borrow-display? (new 'static 'array symbol 2 #f #f)
                   :texture-anim-tfrag #f
-                  :texture-anim-pris #f
+                  :texture-anim-pris '*darkjak-hires-texture-anim-array*
                   :texture-anim-shrub #f
                   :texture-anim-alpha #f
                   :texture-anim-water #f
@@ -12211,7 +12211,7 @@
                  :borrow-level (new 'static 'array symbol 2 #f #f)
                  :borrow-display? (new 'static 'array symbol 2 #f #f)
                  :texture-anim-tfrag #f
-                 :texture-anim-pris #f
+                 :texture-anim-pris '*darkjak-hires-texture-anim-array*
                  :texture-anim-shrub #f
                  :texture-anim-alpha #f
                  :texture-anim-water #f
@@ -12266,7 +12266,7 @@
                  :borrow-level (new 'static 'array symbol 2 #f #f)
                  :borrow-display? (new 'static 'array symbol 2 #f #f)
                  :texture-anim-tfrag #f
-                 :texture-anim-pris #f
+                 :texture-anim-pris '*darkjak-hires-texture-anim-array*
                  :texture-anim-shrub #f
                  :texture-anim-alpha #f
                  :texture-anim-water #f
@@ -12321,7 +12321,7 @@
                   :borrow-level (new 'static 'array symbol 2 #f #f)
                   :borrow-display? (new 'static 'array symbol 2 #f #f)
                   :texture-anim-tfrag #f
-                  :texture-anim-pris #f
+                  :texture-anim-pris '*darkjak-hires-texture-anim-array*
                   :texture-anim-shrub #f
                   :texture-anim-alpha #f
                   :texture-anim-water #f
@@ -12376,7 +12376,7 @@
                    :borrow-level (new 'static 'array symbol 2 #f #f)
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -12479,7 +12479,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -12560,7 +12560,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag '*lava-texture-anim-array*
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -12717,7 +12717,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag '*lava-texture-anim-array*
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -12771,7 +12771,7 @@
                 :borrow-display? (new 'static 'array symbol 2 #f #f)
                 :base-task-mask (task-mask task0)
                 :texture-anim-tfrag '*lava-b-texture-anim-array*
-                :texture-anim-pris #f
+                :texture-anim-pris '*darkjak-hires-texture-anim-array*
                 :texture-anim-shrub #f
                 :texture-anim-alpha #f
                 :texture-anim-water #f
@@ -12897,7 +12897,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -13001,7 +13001,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag '*cas-conveyor-texture-anim-array*
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha '*toxic-slime-texture-anim-array*
     :texture-anim-water #f
@@ -13080,7 +13080,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water '*krew-holo-texture-anim-array*
@@ -13135,7 +13135,7 @@
                  :borrow-display? (new 'static 'array symbol 2 #f #f)
                  :base-task-mask (task-mask task0)
                  :texture-anim-tfrag #f
-                 :texture-anim-pris #f
+                 :texture-anim-pris '*darkjak-hires-texture-anim-array*
                  :texture-anim-shrub #f
                  :texture-anim-alpha #f
                  :texture-anim-water #f
@@ -13191,7 +13191,7 @@
                   :borrow-display? (new 'static 'array symbol 2 #f #f)
                   :base-task-mask (task-mask task0)
                   :texture-anim-tfrag #f
-                  :texture-anim-pris #f
+                  :texture-anim-pris '*darkjak-hires-texture-anim-array*
                   :texture-anim-shrub #f
                   :texture-anim-alpha #f
                   :texture-anim-water #f
@@ -13319,7 +13319,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -13374,7 +13374,7 @@
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :base-task-mask (task-mask task0)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -13430,7 +13430,7 @@
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :base-task-mask (task-mask task0)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -13485,7 +13485,7 @@
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :base-task-mask (task-mask task0)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -13539,7 +13539,7 @@
                   :borrow-display? (new 'static 'array symbol 2 #f #f)
                   :base-task-mask (task-mask task0)
                   :texture-anim-tfrag #f
-                  :texture-anim-pris #f
+                  :texture-anim-pris '*darkjak-hires-texture-anim-array*
                   :texture-anim-shrub #f
                   :texture-anim-alpha #f
                   :texture-anim-water #f
@@ -13691,7 +13691,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0 primary0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -13897,7 +13897,7 @@
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :base-task-mask (task-mask task0)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -13953,7 +13953,7 @@
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :base-task-mask (task-mask task0)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -14008,7 +14008,7 @@
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :base-task-mask (task-mask task0)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -14085,7 +14085,7 @@
     :borrow-level (new 'static 'array symbol 2 #f #f)
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -14181,7 +14181,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -14261,7 +14261,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -14316,7 +14316,7 @@
                   :borrow-display? (new 'static 'array symbol 2 #f #f)
                   :base-task-mask (task-mask task0)
                   :texture-anim-tfrag #f
-                  :texture-anim-pris #f
+                  :texture-anim-pris '*darkjak-hires-texture-anim-array*
                   :texture-anim-shrub #f
                   :texture-anim-alpha #f
                   :texture-anim-water #f
@@ -14371,7 +14371,7 @@
                     :borrow-display? (new 'static 'array symbol 2 #f #f)
                     :base-task-mask (task-mask task0)
                     :texture-anim-tfrag #f
-                    :texture-anim-pris #f
+                    :texture-anim-pris '*darkjak-hires-texture-anim-array*
                     :texture-anim-shrub #f
                     :texture-anim-alpha '*waterfall-texture-anim-array*
                     :texture-anim-water #f
@@ -14426,7 +14426,7 @@
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :base-task-mask (task-mask task0)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -14505,7 +14505,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -14583,7 +14583,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
@@ -14662,7 +14662,7 @@
                    :borrow-level (new 'static 'array symbol 2 #f #f)
                    :borrow-display? (new 'static 'array symbol 2 #f #f)
                    :texture-anim-tfrag #f
-                   :texture-anim-pris #f
+                   :texture-anim-pris '*darkjak-hires-texture-anim-array*
                    :texture-anim-shrub #f
                    :texture-anim-alpha #f
                    :texture-anim-water #f
@@ -14748,7 +14748,7 @@
                           :borrow-level (new 'static 'array symbol 2 #f #f)
                           :borrow-display? (new 'static 'array symbol 2 #f #f)
                           :texture-anim-tfrag #f
-                          :texture-anim-pris #f
+                          :texture-anim-pris '*darkjak-hires-texture-anim-array*
                           :texture-anim-shrub #f
                           :texture-anim-alpha #f
                           :texture-anim-water #f
@@ -14825,7 +14825,7 @@
                           :borrow-level (new 'static 'array symbol 2 #f #f)
                           :borrow-display? (new 'static 'array symbol 2 #f #f)
                           :texture-anim-tfrag #f
-                          :texture-anim-pris #f
+                          :texture-anim-pris '*darkjak-hires-texture-anim-array*
                           :texture-anim-shrub #f
                           :texture-anim-alpha #f
                           :texture-anim-water #f
@@ -14902,7 +14902,7 @@
                           :borrow-level (new 'static 'array symbol 2 #f #f)
                           :borrow-display? (new 'static 'array symbol 2 #f #f)
                           :texture-anim-tfrag #f
-                          :texture-anim-pris #f
+                          :texture-anim-pris '*darkjak-hires-texture-anim-array*
                           :texture-anim-shrub #f
                           :texture-anim-alpha #f
                           :texture-anim-water #f
@@ -14979,7 +14979,7 @@
                           :borrow-level (new 'static 'array symbol 2 #f #f)
                           :borrow-display? (new 'static 'array symbol 2 #f #f)
                           :texture-anim-tfrag #f
-                          :texture-anim-pris #f
+                          :texture-anim-pris '*darkjak-hires-texture-anim-array*
                           :texture-anim-shrub #f
                           :texture-anim-alpha #f
                           :texture-anim-water #f
@@ -15056,7 +15056,7 @@
                           :borrow-level (new 'static 'array symbol 2 #f #f)
                           :borrow-display? (new 'static 'array symbol 2 #f #f)
                           :texture-anim-tfrag #f
-                          :texture-anim-pris #f
+                          :texture-anim-pris '*darkjak-hires-texture-anim-array*
                           :texture-anim-shrub #f
                           :texture-anim-alpha #f
                           :texture-anim-water #f
@@ -15133,7 +15133,7 @@
                           :borrow-level (new 'static 'array symbol 2 #f #f)
                           :borrow-display? (new 'static 'array symbol 2 #f #f)
                           :texture-anim-tfrag #f
-                          :texture-anim-pris #f
+                          :texture-anim-pris '*darkjak-hires-texture-anim-array*
                           :texture-anim-shrub #f
                           :texture-anim-alpha #f
                           :texture-anim-water #f
@@ -15210,7 +15210,7 @@
                           :borrow-level (new 'static 'array symbol 2 #f #f)
                           :borrow-display? (new 'static 'array symbol 2 #f #f)
                           :texture-anim-tfrag #f
-                          :texture-anim-pris #f
+                          :texture-anim-pris '*darkjak-hires-texture-anim-array*
                           :texture-anim-shrub #f
                           :texture-anim-alpha #f
                           :texture-anim-water #f
@@ -15287,7 +15287,7 @@
                           :borrow-level (new 'static 'array symbol 2 #f #f)
                           :borrow-display? (new 'static 'array symbol 2 #f #f)
                           :texture-anim-tfrag #f
-                          :texture-anim-pris #f
+                          :texture-anim-pris '*darkjak-hires-texture-anim-array*
                           :texture-anim-shrub #f
                           :texture-anim-alpha #f
                           :texture-anim-water #f
@@ -15364,7 +15364,7 @@
                           :borrow-level (new 'static 'array symbol 2 #f #f)
                           :borrow-display? (new 'static 'array symbol 2 #f #f)
                           :texture-anim-tfrag #f
-                          :texture-anim-pris #f
+                          :texture-anim-pris '*darkjak-hires-texture-anim-array*
                           :texture-anim-shrub #f
                           :texture-anim-alpha #f
                           :texture-anim-water #f
@@ -15441,7 +15441,7 @@
                           :borrow-level (new 'static 'array symbol 2 #f #f)
                           :borrow-display? (new 'static 'array symbol 2 #f #f)
                           :texture-anim-tfrag #f
-                          :texture-anim-pris #f
+                          :texture-anim-pris '*darkjak-hires-texture-anim-array*
                           :texture-anim-shrub #f
                           :texture-anim-alpha #f
                           :texture-anim-water #f
@@ -15518,7 +15518,7 @@
                           :borrow-level (new 'static 'array symbol 2 #f #f)
                           :borrow-display? (new 'static 'array symbol 2 #f #f)
                           :texture-anim-tfrag #f
-                          :texture-anim-pris #f
+                          :texture-anim-pris '*darkjak-hires-texture-anim-array*
                           :texture-anim-shrub #f
                           :texture-anim-alpha #f
                           :texture-anim-water #f
@@ -15784,7 +15784,7 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris #f
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f

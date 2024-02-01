@@ -169,7 +169,7 @@
     :anim "city-oracle-level-0"
     :parts 4
     :command-list '((-30
-        (send-event "darkjak-highres" 'trans-hook ,(lambda () (set-darkjak-highres-texture-morph! 0.0)))
+        (send-event "darkjak-highres" 'trans-hook ,(lambda () (set-darkjak-highres-texture-morph! 1.0))) ;; 0.0)))
         (fadein (frame-time-30 (new 'static 'bfloat :data 2.0)))
         )
       (13
@@ -230,7 +230,7 @@
                    )
                  (cond
                    ((and (>= f30-0 145.0) (>= 160.0 f30-0))
-                    (set-darkjak-highres-texture-morph! (* 0.06666667 (+ -145.0 f30-0)))
+                    (set-darkjak-highres-texture-morph! 1.0) ;; (* 0.06666667 (+ -145.0 f30-0)))
                     )
                    ((and (< 160.0 f30-0) (>= 280.0 f30-0))
                     (set-darkjak-highres-texture-morph! 1.0)
@@ -350,7 +350,7 @@
     :anim "city-oracle-level-1"
     :parts 4
     :command-list '((-30
-        (send-event "darkjak-highres" 'trans-hook ,(lambda () (set-darkjak-highres-texture-morph! 0.0)))
+        (send-event "darkjak-highres" 'trans-hook ,(lambda () (set-darkjak-highres-texture-morph! 1.0))) ;; 0.0)))
         (fadein (frame-time-30 (new 'static 'bfloat :data 2.0)))
         )
       (13
@@ -411,7 +411,7 @@
                    )
                  (cond
                    ((and (>= f30-0 145.0) (>= 160.0 f30-0))
-                    (set-darkjak-highres-texture-morph! (* 0.06666667 (+ -145.0 f30-0)))
+                    (set-darkjak-highres-texture-morph! 1.0) ;; (* 0.06666667 (+ -145.0 f30-0)))
                     )
                    ((and (< 160.0 f30-0) (>= 280.0 f30-0))
                     (set-darkjak-highres-texture-morph! 1.0)
@@ -509,7 +509,7 @@
     :anim "city-oracle-level-2"
     :parts 4
     :command-list '((-30
-        (send-event "darkjak-highres" 'trans-hook ,(lambda () (set-darkjak-highres-texture-morph! 0.0)))
+        (send-event "darkjak-highres" 'trans-hook ,(lambda () (set-darkjak-highres-texture-morph! 1.0))) ;; 0.0)))
         (fadein (frame-time-30 (new 'static 'bfloat :data 2.0)))
         )
       (13
@@ -570,7 +570,7 @@
                    )
                  (cond
                    ((and (>= f30-0 145.0) (>= 160.0 f30-0))
-                    (set-darkjak-highres-texture-morph! (* 0.06666667 (+ -145.0 f30-0)))
+                    (set-darkjak-highres-texture-morph! 1.0) ;; (* 0.06666667 (+ -145.0 f30-0)))
                     )
                    ((and (< 160.0 f30-0) (>= 280.0 f30-0))
                     (set-darkjak-highres-texture-morph! 1.0)
@@ -668,7 +668,7 @@
     :anim "city-oracle-level-3"
     :parts 4
     :command-list '((-30
-        (send-event "darkjak-highres" 'trans-hook ,(lambda () (set-darkjak-highres-texture-morph! 0.0)))
+        (send-event "darkjak-highres" 'trans-hook ,(lambda () (set-darkjak-highres-texture-morph! 1.0))) ;; 0.0)))
         (fadein (frame-time-30 (new 'static 'bfloat :data 2.0)))
         )
       (13
@@ -729,7 +729,7 @@
                    )
                  (cond
                    ((and (>= f30-0 145.0) (>= 160.0 f30-0))
-                    (set-darkjak-highres-texture-morph! (* 0.06666667 (+ -145.0 f30-0)))
+                    (set-darkjak-highres-texture-morph! 1.0) ;; (* 0.06666667 (+ -145.0 f30-0)))
                     )
                    ((and (< 160.0 f30-0) (>= 280.0 f30-0))
                     (set-darkjak-highres-texture-morph! 1.0)

@@ -1,5 +1,5 @@
 ("ORACLE.DGO"
- ("oracle-texture.o"
+ (;; "oracle-texture.o"
   "oracle-part.o"
   "oracle-scenes.o"
   "oracle-training.o"
