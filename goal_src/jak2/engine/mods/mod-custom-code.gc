@@ -32,6 +32,8 @@
       ;;     )
       ;;   )
 
+      (set-darkjak-highres-texture-morph! 1.0)
+
       (if *show-input-display* 
         (input-display-on)
         (input-display-off)
