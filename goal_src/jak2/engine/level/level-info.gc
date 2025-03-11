@@ -13843,7 +13843,8 @@
     :borrow-display? (new 'static 'array symbol 2 #f #f)
     :base-task-mask (task-mask task0)
     :texture-anim-tfrag #f
-    :texture-anim-pris '*darkjak-hires-nest-texture-anim-array*
+    :texture-anim-pris '*darkjak-hires-texture-anim-array*
+    ;; :texture-anim-pris '*darkjak-hires-nest-texture-anim-array*
     :texture-anim-shrub #f
     :texture-anim-alpha #f
     :texture-anim-water #f
