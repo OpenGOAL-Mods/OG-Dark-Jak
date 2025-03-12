@@ -623,7 +623,8 @@
         (send-event
           "darkjak-highres"
           'trans-hook
-          ,(lambda :behavior scene-player () (set-darkjak-highres-nest-texture-morph! 0.0) (none))
+          ,(lambda :behavior scene-player () (set-darkjak-highres-nest-texture-morph! 1.0) (none))
+          ;; ,(lambda :behavior scene-player () (set-darkjak-highres-nest-texture-morph! 0.0) (none))
           )
         (fadein (frame-time-30 5))
         (part-tracker
@@ -1114,10 +1115,10 @@
                        )
                      )
                  )
-               (if (>= f30-0 2700.0)
+              ;;  (if (>= f30-0 2700.0)
                    (set-darkjak-highres-nest-texture-morph! 1.0)
-                   (set-darkjak-highres-nest-texture-morph! 0.0)
-                   )
+                  ;;  (set-darkjak-highres-nest-texture-morph! 0.0)
+                  ;;  )
                )
              (none)
              )
@@ -1125,7 +1126,8 @@
         )
       (10000
         (task-close! "nest-boss-introduction")
-        (apply ,(lambda :behavior scene-player () (set-darkjak-highres-nest-texture-morph! 0.0) (none)))
+        (apply ,(lambda :behavior scene-player () (set-darkjak-highres-nest-texture-morph! 1.0) (none)))
+        ;; (apply ,(lambda :behavior scene-player () (set-darkjak-highres-nest-texture-morph! 0.0) (none)))
         (setting-pers music mode 'danger4 time (seconds 5))
         )
       )
@@ -1412,7 +1414,8 @@
         (send-event
           "darkjak-highres"
           'trans-hook
-          ,(lambda :behavior scene-player () (set-darkjak-highres-nest-texture-morph! 0.0) (none))
+          ,(lambda :behavior scene-player () (set-darkjak-highres-nest-texture-morph! 1.0) (none))
+          ;; ,(lambda :behavior scene-player () (set-darkjak-highres-nest-texture-morph! 0.0) (none))
           )
         )
       (10000 (setting-pers music mode 'danger4 time (seconds 5)))
