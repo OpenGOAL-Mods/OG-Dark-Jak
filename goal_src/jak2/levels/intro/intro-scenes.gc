@@ -4583,12 +4583,12 @@
                      )
                  )
                (cond
-                 ((< 3100.0 f30-0)
-                  (set-jakb-prison-texture-morph! 0.0)
-                  )
-                 ((and (>= f30-0 3060.0) (>= 3100.0 f30-0))
-                  (set-jakb-prison-texture-morph! (* 0.025 (- 3100.0 f30-0)))
-                  )
+                ;;  ((< 3100.0 f30-0)
+                ;;   (set-jakb-prison-texture-morph! 0.0)
+                ;;   )
+                ;;  ((and (>= f30-0 3060.0) (>= 3100.0 f30-0))
+                ;;   (set-jakb-prison-texture-morph! (* 0.025 (- 3100.0 f30-0)))
+                ;;   )
                  (else
                    (set-jakb-prison-texture-morph! 1.0)
                    )

@@ -32,7 +32,16 @@
       ;;     )
       ;;   )
 
+      ;; barg - darkjak mod hack
+      (when *target*
+        (when (and (not (focus-test? *target* dark)) (not (movie?)))
+          (send-event *target* 'change-mode 'darkjak #f (darkjak-stage force-on no-anim))
+          )
+        )
+        
       (set-darkjak-highres-texture-morph! 1.0)
+      ;; swapped out *darkjak-hires-nest-texture-anim-array* for nestb instead of this
+      ;; (set-darkjak-highres-nest-texture-morph! 1.0) 
 
       (if *show-input-display* 
         (input-display-on)
