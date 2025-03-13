@@ -37,6 +37,18 @@
         (when (and (not (focus-test? *target* dark)) (not (movie?)))
           (send-event *target* 'change-mode 'darkjak #f (darkjak-stage force-on no-anim))
           )
+
+        (when (focus-test? *target* pilot)
+          (case (-> (level-get-target-inside *level*) name) :comp name=
+            (('stadiumb 'stadiumc 'stadiumd)
+              ;; hack you into darkjak mode just in case you fail and restart race
+              (set! (-> *target* darkjak-interp) 1.0)
+              (logior! (-> *target*  darkjak stage) (darkjak-stage active))
+              (set! (-> *target* darkjak want-stage) (-> *target* darkjak stage))
+              (logior! (-> *target* focus-status) (focus-status dark))
+              )
+            )
+          )
         )
         
       (set-darkjak-highres-texture-morph! 1.0)
