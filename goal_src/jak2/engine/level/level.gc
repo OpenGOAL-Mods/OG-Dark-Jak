@@ -1074,10 +1074,18 @@ into 7 sections, which might explain the weird sizes in the center.
        (dotimes (s4-0 10)
          (let ((a0-8 (-> this info texture-anim s4-0)))
            (when a0-8
-             (set! (-> this texture-anim-array s4-0)
-                   (init! (the-as texture-anim-array (-> a0-8 value)))
-                   )
-               )
+            (cond
+              ((= (-> a0-8 value) *darkjak-hires-texture-anim-array*)
+                ;; skip init/clear for darkjak-hires, keep that shit global
+                (set! (-> this texture-anim-array s4-0) *darkjak-hires-texture-anim-array*)
+                )
+              (else
+                (set! (-> this texture-anim-array s4-0)
+                      (init! (the-as texture-anim-array (-> a0-8 value)))
+                      )
+                )
+              )
+            )
            )
          )
         (build-masks s5-0)
@@ -1633,11 +1641,12 @@ into 7 sections, which might explain the weird sizes in the center.
       (when (or (= v1-63 'alive) (or (= v1-63 'active) (= v1-63 'loaded)))
         (dotimes (s5-3 10)
           (let ((a0-37 (-> this info texture-anim s5-3)))
-            (if a0-37
-                (set! (-> this texture-anim-array s5-3)
-                      (clear! (the-as texture-anim-array (-> a0-37 value)))
-                      )
-                )
+            (if (and a0-37 (!= a0-37 *darkjak-hires-texture-anim-array*))
+              ;; skip init/clear for darkjak-hires, keep that shit global
+              (set! (-> this texture-anim-array s5-3)
+                    (clear! (the-as texture-anim-array (-> a0-37 value)))
+                    )
+              )
             )
           )
         )

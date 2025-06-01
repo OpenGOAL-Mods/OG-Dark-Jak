@@ -32,28 +32,38 @@
       ;;     )
       ;;   )
 
-      ;; barg - darkjak mod hack
-      (when *target*
-        (when (and (not (focus-test? *target* dark)) (not (movie?)))
-          (send-event *target* 'change-mode 'darkjak #f (darkjak-stage force-on no-anim))
+      ;; darkjak hacks
+      (cond
+        ((movie?)
+          ;; swap between hires texture-anim-array for movies and normal one for gameplay
+          (set! (-> (&-> *level* default-level texture-anim-array 1) 0) *darkjak-hires-texture-anim-array*)
+          (set-darkjak-highres-texture-morph! 1.0)
+          ;; swapped out *darkjak-hires-nest-texture-anim-array* for nestb instead of this
+          ;; (set-darkjak-highres-nest-texture-morph! 1.0) 
           )
+        (else
+          ;; swap between hires texture-anim-array for movies and normal one for gameplay
+          (set! (-> (&-> *level* default-level texture-anim-array 1) 0) *darkjak-texture-anim-array*)
 
-        (when (focus-test? *target* pilot)
-          (case (-> (level-get-target-inside *level*) name) :comp name=
-            (('stadiumb 'stadiumc 'stadiumd)
-              ;; hack you into darkjak mode just in case you fail and restart race
-              (set! (-> *target* darkjak-interp) 1.0)
-              (logior! (-> *target*  darkjak stage) (darkjak-stage active))
-              (set! (-> *target* darkjak want-stage) (-> *target* darkjak stage))
-              (logior! (-> *target* focus-status) (focus-status dark))
+          (when *target*
+            (when (and (not (focus-test? *target* dark)))
+              (send-event *target* 'change-mode 'darkjak #f (darkjak-stage force-on no-anim))
+              )
+
+            (when (focus-test? *target* pilot)
+              (case (-> (level-get-target-inside *level*) name) :comp name=
+                (('stadiumb 'stadiumc 'stadiumd)
+                  ;; hack you into darkjak mode just in case you fail and restart race
+                  (set! (-> *target* darkjak-interp) 1.0)
+                  (logior! (-> *target*  darkjak stage) (darkjak-stage active))
+                  (set! (-> *target* darkjak want-stage) (-> *target* darkjak stage))
+                  (logior! (-> *target* focus-status) (focus-status dark))
+                  )
+                )
               )
             )
           )
         )
-        
-      (set-darkjak-highres-texture-morph! 1.0)
-      ;; swapped out *darkjak-hires-nest-texture-anim-array* for nestb instead of this
-      ;; (set-darkjak-highres-nest-texture-morph! 1.0) 
 
       (if *show-input-display* 
         (input-display-on)

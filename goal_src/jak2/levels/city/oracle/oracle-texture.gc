@@ -470,6 +470,9 @@
     )
   )
 
+;; global init this
+(init! *darkjak-hires-texture-anim-array*)
+
 (defun set-darkjak-highres-texture-morph! ((arg0 float))
   (let ((v1-0 *darkjak-hires-texture-anim-array*))
     (dotimes (a1-0 (-> v1-0 length))
